@@ -6,11 +6,14 @@ Whenever we create a new Compute Engine instance (n1-standard - 3GB RAM and 1CPU
 1. update the VM - (sudo apt-get update)
 2. Make sure python installed - (python --version)
 3. create a virtual python environment"
+
    3.a. Install the virtual environment package - (sudo apt install python3.11-venv)
+
    3.b. create the virtual env - (python3 -m venv myenv)
+
    3.c. activate the virtual env - (source myenv/bin/activate)
 
-4. Now install the pip - (sudo apt-get install python3-pip)
-5. install the required gcp client libraries ; for example - (pip install google-cloud-pubsub)
+5. Now install the pip - (sudo apt-get install python3-pip)
+6. install the required gcp client libraries ; for example - (pip install google-cloud-pubsub)
    
 **In this basic operations in pubsub, we have created 2 compute engines, one as publisher and other as subscriber. We have to set up the above environment in both engines which are running the python application.**
