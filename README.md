@@ -13,4 +13,4 @@ Whenever we create a new Compute Engine instance (n1-standard - 3GB RAM and 1CPU
 4. Now install the pip - (sudo apt-get install python3-pip)
 5. install the required gcp client libraries ; for example - (pip install google-cloud-pubsub)
    
-# In this basic operations in pubsub, we have created 2 compute engines, one as publisher and other as subscriber. We have to set up the above environment in both engines which are running the python application.
+**In this basic operations in pubsub, we have created 2 compute engines, one as publisher and other as subscriber. We have to set up the above environment in both engines which are running the python application.**
