@@ -15,6 +15,7 @@ command - **gsutil notification create -f json -e OBJECT_FINALIZE -t projects/pr
 
 Note:
 We can deploy the cloud functions to invoke the pubsub topic in the CLI using the below command:
+
 **directory_name**  is the folder name which should consist of main.py and requirements.txt files. 
 
 
