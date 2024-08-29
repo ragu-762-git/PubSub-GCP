@@ -2,7 +2,7 @@ from wand.image import Image
 from google.cloud import storage
 
 client = storage.Client()
-thumbnail_bucket = 'tim-acloud-guru-thumbnails'
+thumbnail_bucket = 'bold-land-bkt-for-thumbnails'
 
 
 def gen_thumbnail(data, context):
