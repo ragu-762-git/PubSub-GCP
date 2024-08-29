@@ -11,4 +11,5 @@ the rest of our applicaiton. So, its great that we can scale this component up a
 # important points:
 I have created the notification configuration for my images bucket using gsutil on the CLI. i.e when a file hits a bkt, a notification (msg) in form of JSON payload 
 should be published to the specified pubsub topic
+
 command - (gsutil notification create -f json -e OBJECT_FINALIZE -t projects/projectname/topics/topicname gs://bkt-name)
