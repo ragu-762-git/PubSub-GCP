@@ -1,5 +1,5 @@
 # Simple-Pub-Sub-operation-using-Compute-Engines-in-GCP
-This repo describes a basic pub/sub operation such as publishing messages to a topic from a python application running in one Compute engine (publisher) to another python application running in other compute engine instance (subscriber) using Pub/Sub Client API library.
+This folder describes a basic pub/sub operation such as publishing messages to a topic from a python application running in one Compute engine (publisher) to another python application running in other compute engine instance (subscriber) using Pub/Sub Client API library.
 
 # Note:
 Whenever we create a new Compute Engine instance (n1-standard - 3GB RAM and 1CPU-OS-Linux_debian) and use python to interact with any GCP services through Client API libraries, follow the below steps in SSH terminal:
